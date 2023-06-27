@@ -1,0 +1,162 @@
+html {
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Hanken Grotesk';
+}
+
+.container-center {
+    display: flex;
+    width: 68vh;
+    height: 42rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 10px 10px 10px 5px rgb(247, 246, 246);
+}
+
+.container-left {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    height: 100%;
+    border-radius: 6%;
+    text-align: center;
+    min-width: 32rem;
+    max-width: 32rem;
+}
+
+.container-right {
+    background-color: rgb(255, 251, 251);
+    height: 100%;
+    border-radius: 6%;
+}
+
+.container-results {
+    display: grid;
+    place-items: center;
+    color: black;
+    width: 54%;
+    height: 38%;
+    margin: 0 auto;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 3.2rem auto;
+    font-size: 2rem;
+    color: rgb(236, 236, 236);
+    width: 70%;
+}
+
+h2 {
+    color: white;
+    font-size: 5.4rem;
+    letter-spacing: 0.2rem;
+    margin: 4rem 0 0 0;
+}
+
+h3 {
+    margin: 2.5rem auto 1rem auto;
+    width: 70%;
+    font-size: 2.6rem;
+    color: rgba(255, 255, 255, 0.795)
+}
+
+.of-results {
+    color: rgb(189, 187, 187);
+    font-size: 1.6rem;
+    margin: 0 0 3rem 0;
+}
+
+.para {
+    margin: 0 auto;
+    width: 75%;
+    font-size: 1.65rem;
+    color: #d1c9c9;
+}
+    
+h4 {
+    font-size: 2rem;
+    color: #6e6e6e;
+
+}
+
+.container-stats {
+    margin: 3rem;
+    max-width: 26rem;
+    min-width: 26rem;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    background: #faf1f1;
+    height: 4.6rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+}
+
+.stat-img {
+    margin: 0 1rem;
+}
+
+.stat, .stat-number, .of100 {
+    font-size: 1.6rem;  
+}
+
+.of100 {
+    color: #6b6666;
+    margin-left: 0.2rem;
+}
+
+.red {
+    color: red;
+    margin-right: 9rem;
+}
+
+.yellow {
+    color: orange;
+    margin-right: 9.3rem;
+}
+
+.green {
+    color: green;
+    margin-right: 10.7rem;
+}
+
+.blue {
+    color: blue;
+    margin-right: 10.9rem;
+}
+
+button {
+    margin: 0 12%;
+    width: 76%;
+    height: 11%;
+    border-radius: 2.5rem;
+    color: white;
+    background: rgb(19, 25, 104);
+    font-weight: 700;
+}
+
+@media (max-width: 600px) {
+    .container-center {
+        display: block;
+        max-width: 32rem;
+        box-shadow: none;
+    }
+
+    h1 {
+        padding-top: 2rem;
+    }
+
+    button {
+        width: 70%;
+    }
+}
+    
